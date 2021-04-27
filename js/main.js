@@ -84,7 +84,7 @@ const fleetData = [{
         h: '1.5м',
         ob: `4.5m<sup>3</sup>`,
         up: '700 кг',
-        img: './img/kabluk.jpg'
+        img: '../img/kabluk.jpg'
     },
     {
         id: 2,
@@ -93,7 +93,7 @@ const fleetData = [{
         h: '2м',
         ob: `12m<sup>3</sup>`,
         up: '1,5 тонны',
-        img: './img/gaz3.jpg'
+        img: '../img/gaz3.jpg'
     },
     {
         id: 3,
@@ -102,7 +102,7 @@ const fleetData = [{
         h: '2м',
         ob: `16m<sup>3</sup>`,
         up: '2,5 тонны',
-        img: './img/gaz4.jpg'
+        img: '../img/gaz4.jpg'
     }
 ]
 
