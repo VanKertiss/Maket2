@@ -1,0 +1,655 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat/Montserrat-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    color: #333333;
+}
+
+.container {
+    max-width: 1316px;
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 60px;
+}
+
+/* ---------------------------------------------------------------------header */
+
+.headerContainer {
+    display: flex;
+    padding-top: 47px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: #FED100;
+}
+
+
+
+
+
+.h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 126.9%;
+    margin-top: 63px;
+}
+
+.navLink {
+    position: relative;
+    z-index: 100;
+    margin-right: 46px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.brend {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+/* -------------------------------------------------------start */
+
+.start {
+    background: #FED100;
+    height: 571px;
+}
+
+.startDescriptText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.startContainer {
+    display: flex;
+}
+
+.startImg1 {
+    position: absolute;
+    z-index: 1;
+    top: 47px;
+    left: 747px;
+}
+
+.startImg2 {
+    z-index: 0;
+    position: absolute;
+    left: 1045px;
+    top: 180px;
+}
+
+.startDescriptButton {
+    width: 304px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #FF352B;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+}
+
+.startDescriptLittle {
+    display: flex;
+}
+
+.littleItems {
+    display: flex;
+    margin-top: 77px;
+    margin-right: 5px;
+}
+
+.littleDescript {
+    margin-left: 10px;
+    max-width: 140px;
+}
+
+.buttonPhone {
+    background-color: rgba(61, 155, 233, 0.8);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPhoneContainer {
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    background-color: rgba(61, 155, 233, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 397px;
+    margin-left: 607px;
+}
+
+.howToDoItContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.howItems {
+    display: flex;
+    max-width: 1106px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 104px;
+}
+
+.howItem {
+    width: 40%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.howTitle {
+    margin-top: 95px;
+}
+
+.howItemTextBold {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.howItemText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 15px;
+}
+
+.howBlock {
+    margin-left: 42px;
+}
+
+.howToDoItH2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 61px;
+    text-shadow: 3px 0px #FED100;
+}
+
+/* ----------------------------------------------------------Price */
+
+.priceH2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.priceDiscrition {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.priceCards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 102px;
+}
+
+.priceCard {
+    padding: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: #FED100 1px solid;
+}
+
+.priceCard:first-child,
+.priceCard:last-child {
+    border: #333333 1px solid;
+}
+
+.priceTexLow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceTextHigh {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 60px;
+}
+
+.priceTexLow span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+.PricePrice {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 52px;
+    margin-top: 60px;
+}
+
+.priceButton {
+    padding: 13px 78px;
+    background: #FED100;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+/* ---------------------------------------------------------------Fleet */
+
+
+
+.pasive {
+    border: 2px solid #EBEBEB;
+}
+
+.fleetH2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fleetDescription {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.fleetButtonBlock {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+}
+
+.fleetButton {
+    padding: 13px 63px;
+    border: #EBEBEB 2px solid;
+    background-color: white;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.fleetSlider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.fleetData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spanContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.forward,
+.back {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+.forward {
+    background-image: url('../img/forward.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.back {
+    background-image: url('../img/back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.fleetImg {
+    height: 200px;
+    margin-left: 112px;
+}
+
+.oldSpan {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 37px;
+}
+
+.span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 28px;
+}
+
+.check {
+    margin-right: 15px;
+}
+
+.active {
+    border: 2px solid #FED100;
+}
+
+/* ------------------------------------------------reviews */
+
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 94px;
+    background: #FED100;
+}
+
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewsH2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reviewsItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.reviewsName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+
+.reviewsDateRating {
+    margin-bottom: 19px;
+}
+
+.reviewsDate {
+    margin-right: 10px;
+}
+
+.reviewsDate,
+.reviewsText,
+.reviewsRead {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.reviewsText {
+    margin-bottom: 18px;
+}
+
+.reviewsRead {
+    text-decoration: underline;
+    margin-bottom: 59px;
+}
+
+.reviewsButton {
+    padding: 13px 78px;
+    background: #FED100;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #333333;
+}
+
+/* ---------------------------------------------------------form */
+
+.formContainer {
+    padding-top: 124px;
+    padding-bottom: 123px;
+    max-width: 1002px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.formH2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 10px;
+}
+
+.formDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 37px;
+}
+
+.formInput {
+    border: none;
+    border-bottom: 2px solid #333333;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 72px;
+}
+
+.formButton {
+    padding: 13px 78px;
+    background: #FF352B;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.checkboxContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+/* ----------------------------------------------------------map */
+
+.map {
+    background-image: url('../img/mapBack.png');
+}
+
+.mapContainer {
+    padding-top: 162px;
+    padding-bottom: 178px;
+    max-width: 1002px;
+    width: 90%;
+    margin: auto;
+}
+
+.mapItems {
+    padding: 40px 35px;
+    background-color: white;
+    max-width: 368px;
+    max-height: 326px;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapH2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 40px;
+}
+
+.mapItem {
+    margin-bottom: 20px;
+}
+
+.socialImg {
+    width: 147px;
+    margin-left: 60%;
+    margin-top: 57px;
+}
+
+/* -------------------------------------------------------------footer */
+
+footer{
+    background: #FED100;
+}
+
+.footerContainer{
+    padding-top: 100px;
+    padding-bottom: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+}
+
+.footerH2{
+    font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+margin-bottom: 44px;
+}
+
+.footerDescription{
+    max-width:300px;
+    margin-bottom: 36px;
+}
+
+.footerNavLink{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-decoration: none;
+color: #333333;
+margin-bottom: 15px;
+}
+
+.footerSocialImg{
+    margin-bottom: 20px;
+}
+
+.footerButton{
+    padding: 10px 30px;
+    background: #FED100;
+    border: 2px solid #333333;
+    margin-bottom: 5px;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+
+.foterLast{
+    align-items:center;
+}
+
+.footerPhone{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
